@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: d964578f41fd935428a0d3b501f61912
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlasa
+    second: {fileID: 2100000, guid: 9ceead8095769b840970f9f031cd76f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlasc
+    second: {fileID: 2100000, guid: 70dbe8aac65cfff4695c0c35fb284537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlasd
+    second: {fileID: 2100000, guid: 2757f152f92e42449a1ec55652637445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlase
+    second: {fileID: 2100000, guid: c3ea7b9e67d4fd24ab6e6f30de2bb366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlasg
+    second: {fileID: 2100000, guid: 38c442f950e37704dabe85831e1c57f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Atlash
+    second: {fileID: 2100000, guid: 6026b1ad3b27f444cb8d856a2c8bdf71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_ConcreteOld
+    second: {fileID: 2100000, guid: 66f49d4d6d113f04fbc5ae8743b93427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_ConcretePolishSideWalk
+    second: {fileID: 2100000, guid: 0a30d946f21ed0049b284a98ae009d22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_CopperGreen
+    second: {fileID: 2100000, guid: 431045f9783f50749b39aababbcc6fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GlassBlack
+    second: {fileID: 2100000, guid: f97788b59ac41b94dbb2a83416836530, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GlassBlue
+    second: {fileID: 2100000, guid: 943427b781660de4196dc71bc24ac69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GlassCyan
+    second: {fileID: 2100000, guid: 5203816c67582f04faf64d67ada4464b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GoldRough
+    second: {fileID: 2100000, guid: b93849eb75b0e4e48aa1b2c5c6b1fe3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GraniteGrayPolishT
+    second: {fileID: 2100000, guid: db55d0b5bd037284d85c990673a5a9d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GrassField
+    second: {fileID: 2100000, guid: edbfd5b47cf583144b112faa83dfc3ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_GroundBush
+    second: {fileID: 2100000, guid: 0ac43b7f74938974ca1c65deac0caa5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Lamps
+    second: {fileID: 2100000, guid: 8bdefe99b4e3d3f438f1515032c71d05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_LeafAtlas
+    second: {fileID: 2100000, guid: 34810e8e4149ef54ba98bddd501fd32a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MarbleWhiteA
+    second: {fileID: 2100000, guid: b981abe8645b6454eb4f4169ec75ef13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalAccentA
+    second: {fileID: 2100000, guid: 91f47c322d8fe4844b007ce4c06f37ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalBlack
+    second: {fileID: 2100000, guid: a26f377da7955f54e919421404266f68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalBronze
+    second: {fileID: 2100000, guid: ee62e73db72766248aa58ab879daf86d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalDBrown
+    second: {fileID: 2100000, guid: ff8ad2961f00b484e9982d8b280930b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalDarkGreyWorn
+    second: {fileID: 2100000, guid: a3461bd5b419c774d963ff6af36bafd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalDirtGreen
+    second: {fileID: 2100000, guid: 039688ab3e6b37f49866e5ef1f178926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalPaintedWhiteDirt
+    second: {fileID: 2100000, guid: cb980f7d3c9ff624c897a70421998742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalPanelsBright
+    second: {fileID: 2100000, guid: fbf082c846d10ac4091c2b8a252f4208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalPolished
+    second: {fileID: 2100000, guid: e022652b73c6dd942a8d1e12529d9f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_MetalRoughGray
+    second: {fileID: 2100000, guid: 3ce4035b8811b3641a7a08df63020f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneBeigeLight
+    second: {fileID: 2100000, guid: 1d699223d963a7a48ad109bab82e17e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneBrickBeigeLight
+    second: {fileID: 2100000, guid: 0f556c3f7ebf28a4cb886b89717f732b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneBrown
+    second: {fileID: 2100000, guid: 3a959b6bb7710ed4eac03b9a0b22e461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneDBeige
+    second: {fileID: 2100000, guid: a6f46030d606cc145bbfe5ad026a2cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneFullGrayC
+    second: {fileID: 2100000, guid: 938b7a5b511fdb54a9f36f936b54cef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneGrayC
+    second: {fileID: 2100000, guid: e16b2befd891f6540b59da426d02a77b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneGrayDark
+    second: {fileID: 2100000, guid: ecaae20723eed914eb46986c2c37b672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneLBeige
+    second: {fileID: 2100000, guid: 9eb759af268c4bd4a91807863b0b5a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PalimananStoneWhiteBrick
+    second: {fileID: 2100000, guid: b1bb5a71460ec9b4f990dadd73ec038d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_PanelsBrown
+    second: {fileID: 2100000, guid: 513930b04a1c407489e771cb49a48d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_RoofCopperGreenB
+    second: {fileID: 2100000, guid: 5b81a28ce46d5fa47a7a10417dbe041e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Rubber
+    second: {fileID: 2100000, guid: a1f2e24681bc4bc4b81d9e647c552354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_SolarPanelsNEO
+    second: {fileID: 2100000, guid: e23d988986f9a8c46a08d2871f97e45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_StoneSidewalk
+    second: {fileID: 2100000, guid: b65dc451032c8d34ba2fed3eb1656e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_Water
+    second: {fileID: 2100000, guid: fb9d531501dea714fac7cc4f19cc6214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_WaterFall
+    second: {fileID: 2100000, guid: 9ae909a34c03c6549a1ca8b7a29a1fd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_NNY_WoodVarnishedB
+    second: {fileID: 2100000, guid: 36bc267662d187e40ae41b2382a83766, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
