@@ -1,0 +1,1258 @@
+Unity Editor version:    2020.3.34f1 (9a4c9c70452b)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.2 (Build 20G314)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/user/UnityProjects/GitProject/metaverse
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61526
+Successfully changed project path to: /Users/user/UnityProjects/GitProject/metaverse
+/Users/user/UnityProjects/GitProject/metaverse
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 136.78 ms, found 6 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 2.69 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/UnityProjects/GitProject/metaverse/Assets
+GfxDevice: creating device client; threaded=0
+2022-10-06 19:27:35.639 Unity[9369:510882] S24R35xFZ preferred device: NVIDIA GeForce GT 730 (high power)
+2022-10-06 19:27:35.639 Unity[9369:510882] Metal devices available: 1
+2022-10-06 19:27:35.639 Unity[9369:510882] 0: NVIDIA GeForce GT 730 (high power)
+2022-10-06 19:27:35.639 Unity[9369:510882] Using device NVIDIA GeForce GT 730 (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 730
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56369
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003319 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.52 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.73 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007830 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on ServerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.77 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (992ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.070472 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.180204 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+The currently available disk space (216 MB) is lower than the suggested threshold of 256 MBs. We strongly suggest that you free up some space before resuming work in the Editor.
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.81 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 302.7 MB.
+System memory in use after: 301.2 MB.
+
+Unloading 849 unused Assets to reduce memory usage. Loaded Objects now: 3823.
+Total: 3.904507 ms (FindLiveObjects: 0.360895 ms CreateObjectMapping: 0.221592 ms MarkObjects: 2.470184 ms  DeleteObjects: 0.851121 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(79dd6731ddb4643e498e9be70a6c45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(79dd6731ddb4643e498e9be70a6c45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0234126ffcee87f29ffbc2dbc0f5180') in 0.953153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(67529085b5e8d4f72a9fd058bd815349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(67529085b5e8d4f72a9fd058bd815349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f8550bc549afb2be23f69666285d8') in 0.013264 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 1.12 ms.
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:82 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:37 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:410 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 82)
+
+2022-10-06 19:37:17.691 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2022-10-06 19:37:17.711 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+- Completed reload, in  1.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on ServerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.78 ms.
+Unloading 3236 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 305.8 MB.
+System memory in use after: 305.0 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3841.
+Total: 4.678564 ms (FindLiveObjects: 0.300011 ms CreateObjectMapping: 0.176307 ms MarkObjects: 3.680645 ms  DeleteObjects: 0.520813 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.89 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.3 MB.
+System memory in use after: 237.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4354.
+Total: 5.607109 ms (FindLiveObjects: 0.300356 ms CreateObjectMapping: 0.176685 ms MarkObjects: 4.977917 ms  DeleteObjects: 0.151624 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.80 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.67 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.8 MB.
+System memory in use after: 236.6 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4354.
+Total: 5.182491 ms (FindLiveObjects: 0.255943 ms CreateObjectMapping: 0.144190 ms MarkObjects: 4.647083 ms  DeleteObjects: 0.134708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 616.605560 seconds.
+  path: Assets/_RawAssets/Scenes/VRTest.unity
+  artifactKey: Guid(ed9c0703c3b8e48269e0773ea1a270f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Scenes/VRTest.unity using Guid(ed9c0703c3b8e48269e0773ea1a270f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dba435d537c556fba40c971e952c411') in 0.001372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.246295 seconds.
+  path: Assets/_RawAssets
+  artifactKey: Guid(08841845ba27b493cb5ff8bbac2605d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets using Guid(08841845ba27b493cb5ff8bbac2605d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773e5afc5b5bc1e8573540584514a5c') in 0.001856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.153322 seconds.
+  path: Assets/_RawAssets/Material
+  artifactKey: Guid(6c8a2f4c86e1e9d4080eae49498f95c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material using Guid(6c8a2f4c86e1e9d4080eae49498f95c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f33d4b082821574a5f3032960cf1b5c') in 0.000768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057823 seconds.
+  path: Assets/_RawAssets/Material/CubeBorder.mat
+  artifactKey: Guid(9e7ec01b2238f4e01b3bbedba0e7952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/CubeBorder.mat using Guid(9e7ec01b2238f4e01b3bbedba0e7952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fc67a9f0ca2b0aa76b19f877070200') in 0.512768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/_RawAssets/Material/White.mat
+  artifactKey: Guid(7aba5df9c97be4160bf513d512d70c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/White.mat using Guid(7aba5df9c97be4160bf513d512d70c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd48f6d817958dfc0586430c4dd689') in 0.066421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_RawAssets/Material/PA_TreeSet2_Pile1.mat
+  artifactKey: Guid(6d05e01978f7a7f44a81142a85dcf21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/PA_TreeSet2_Pile1.mat using Guid(6d05e01978f7a7f44a81142a85dcf21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8aba5e68835595c8a1376287ce263d') in 0.318746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_RawAssets/Material/PA_SkyboxDay_mtl.mat
+  artifactKey: Guid(e30852681d4f76d4ab79d663c02e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/PA_SkyboxDay_mtl.mat using Guid(e30852681d4f76d4ab79d663c02e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a85043a437b423c44b3c4257dcab86a') in 0.082886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_RawAssets/Material/PA_SkyboxNight_mtl.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/PA_SkyboxNight_mtl.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d9ea10494fa91e0b32aa3a234a80d6') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.245649 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Material/EA03_LPNP - Grass.mat
+  artifactKey: Guid(7a1160409d7033a4aa04f47785fdaa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Material/EA03_LPNP - Grass.mat using Guid(7a1160409d7033a4aa04f47785fdaa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ba026590dc2cace85de7ddaad1703') in 0.244341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Grass.mat
+  artifactKey: Guid(953d3192356053f479f39aeb9eb960b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Grass.mat using Guid(953d3192356053f479f39aeb9eb960b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df0ef7a996afc09afa7741245f538f3') in 0.355183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_B.fbx
+  artifactKey: Guid(e3352f355237f064d89f6f4536fa817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_B.fbx using Guid(e3352f355237f064d89f6f4536fa817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6903d03e72341034b758b9bdfe324ca8') in 0.427579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Materials/Fol_Grass_A.mat
+  artifactKey: Guid(589f955c11a1961458b42fd987ee293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Materials/Fol_Grass_A.mat using Guid(589f955c11a1961458b42fd987ee293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e04a6c8b26e3c0c2be3e1bf051a63') in 0.023052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_D.fbx
+  artifactKey: Guid(9f9aca6e54a0c7a449c5f545eeedbcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_D.fbx using Guid(9f9aca6e54a0c7a449c5f545eeedbcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845b57afae2633085007c25efcb43f76') in 0.026285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_02a_PRE.prefab
+  artifactKey: Guid(5827b8449e8b29948afa3e65092aff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_02a_PRE.prefab using Guid(5827b8449e8b29948afa3e65092aff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926a653564cbe12a9b5af4fdc14a9a95') in 0.150310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Flower_Grass.png
+  artifactKey: Guid(75c5fa47d1f3b3e4592a12a4158ed2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Flower_Grass.png using Guid(75c5fa47d1f3b3e4592a12a4158ed2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cb164892663bdf7bbd7269a2eedd64') in 0.583060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat
+  artifactKey: Guid(ba3bddb608259184783916ac7915d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat using Guid(ba3bddb608259184783916ac7915d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616c2920f9866dbc2e9e0e9c16832183') in 0.009780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_C.fbx
+  artifactKey: Guid(e3c391c3d9b18b1459bc74e09a824b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_C.fbx using Guid(e3c391c3d9b18b1459bc74e09a824b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a300b4592074b7f670e0600ec818e8') in 0.028623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01c.fbx
+  artifactKey: Guid(09fd99c250bbf3b43b2f4f2e5ab0642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01c.fbx using Guid(09fd99c250bbf3b43b2f4f2e5ab0642f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384d79c7e2ac99439b349540de3ccfae') in 0.040242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Flower_Grass_NM.png
+  artifactKey: Guid(440be66d71848fe4fa7bbdb16f1f056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Flower_Grass_NM.png using Guid(440be66d71848fe4fa7bbdb16f1f056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01d71bc15eaa6bbfe9b5ebc049dc377') in 0.018989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01d.fbx
+  artifactKey: Guid(0112cde65927c774897cff6d38ff9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01d.fbx using Guid(0112cde65927c774897cff6d38ff9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a308e854232898ebb968e7d1bab048a7') in 0.045306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sun_Temple/Content/Textures/fol_grass1.tif
+  artifactKey: Guid(ed01cd6829cb6bc4790a67250f5ca5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/fol_grass1.tif using Guid(ed01cd6829cb6bc4790a67250f5ca5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9af8b70af09a77c29bf15895617105') in 0.726078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01d_PRE.prefab
+  artifactKey: Guid(48aec74a5aea0a5499a50a752583d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01d_PRE.prefab using Guid(48aec74a5aea0a5499a50a752583d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4542c390cd44764a2bd86af64cb70c') in 0.017205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Material/Grass.mat
+  artifactKey: Guid(ea08560f7d1d41746b68a867eb19abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Material/Grass.mat using Guid(ea08560f7d1d41746b68a867eb19abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8f8b57c25d9f4c406ee29f966454b7') in 0.014481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01e.fbx
+  artifactKey: Guid(c3f5ebd294edb9e468222b22e0edd694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Plant_Grass_01e.fbx using Guid(c3f5ebd294edb9e468222b22e0edd694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd4fbdef069d32eac631fb09f7ec5a5') in 0.036420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee82ba55ae8401cca3537abb495d914') in 1.174960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField 1.mat
+  artifactKey: Guid(af8e5a594794c426b913a78f39077a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField 1.mat using Guid(af8e5a594794c426b913a78f39077a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b619f22472c13f37d063f5af59ddf3') in 0.169543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_C.prefab
+  artifactKey: Guid(de006beaac36de64d9a2c3569ad1be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_C.prefab using Guid(de006beaac36de64d9a2c3569ad1be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2e27516243753da89e02a2326a773f') in 0.366734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_B.prefab
+  artifactKey: Guid(0afb191bb5d4e8c47b6fddcd5b8c8bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_B.prefab using Guid(0afb191bb5d4e8c47b6fddcd5b8c8bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed893664d83a46fdcacec562b8f4f6a0') in 0.112909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_C.prefab
+  artifactKey: Guid(f3d5432b8ff8c7e4e9aab8ca88060e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_C.prefab using Guid(f3d5432b8ff8c7e4e9aab8ca88060e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02108d8fa3e68601de80ca379ed4fa44') in 0.114829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Grass_Texture.psd
+  artifactKey: Guid(7a923d27811ae794cb78f4a26b73a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Grass_Texture.psd using Guid(7a923d27811ae794cb78f4a26b73a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2741b2595e57b0863dec4ed5d4797f4d') in 0.250411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/NAT_Grass1_N.tif
+  artifactKey: Guid(33ae1acfe6693134e960e547690a42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/NAT_Grass1_N.tif using Guid(33ae1acfe6693134e960e547690a42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e44c327813841138c5e7529fccf964') in 0.054836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_B.fbx
+  artifactKey: Guid(f23a21e2be3dd86449dff81261bf83a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_B.fbx using Guid(f23a21e2be3dd86449dff81261bf83a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2686f0d5b3a3670ef5d2840ecda52762') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/Materials/GrassFrond02AlbedoAlpha.mat
+  artifactKey: Guid(49860d8e927784446a0d470ea8e26ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/Materials/GrassFrond02AlbedoAlpha.mat using Guid(49860d8e927784446a0d470ea8e26ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c79a94966040078f216c30633655f9') in 0.007339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c3e533837c5e8e7a8de68ae0f79245') in 0.006114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02a.fbx
+  artifactKey: Guid(faaa3e603bf1ed04298cf45f5b3a4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02a.fbx using Guid(faaa3e603bf1ed04298cf45f5b3a4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dd9566d4d1a25ad5bcc6fd8e73b077') in 0.022658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_A.fbx
+  artifactKey: Guid(07482563e336d994abdc831e53431ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_A.fbx using Guid(07482563e336d994abdc831e53431ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30881a2240c0a147fc75f3796178fe18') in 0.012343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_B.prefab
+  artifactKey: Guid(b01dcbaa1e9203542b7c5f29656d346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_B.prefab using Guid(b01dcbaa1e9203542b7c5f29656d346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc2300a07d515b4b1a1c2273636a77a') in 0.103037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_A.prefab
+  artifactKey: Guid(eed7118be894efa4fa004434dec6a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_A.prefab using Guid(eed7118be894efa4fa004434dec6a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e0eb69e29ffa021e79b7a94b8cf556') in 0.102614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_A.fbx
+  artifactKey: Guid(915f7876f4eb358428d2380c41211be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_A.fbx using Guid(915f7876f4eb358428d2380c41211be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c439cf1c43ab24d5231777d2954577') in 0.011971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6e7380f57f8209452fa75ba5a6fa15') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/NAT_Grass.mat
+  artifactKey: Guid(c6d8319ab8e4fb64494c4a9e3b97dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/NAT_Grass.mat using Guid(c6d8319ab8e4fb64494c4a9e3b97dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323de820db941a23374179669978450c') in 0.102119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_C.fbx
+  artifactKey: Guid(de0566628568cba439f3bac219290d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_C.fbx using Guid(de0566628568cba439f3bac219290d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50061eb10e29edbb038fefc30b2a976e') in 0.011036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_A.prefab
+  artifactKey: Guid(303e052397d101d4593b4a0653331030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Tall_A.prefab using Guid(303e052397d101d4593b4a0653331030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70e2758659df187d1fd130be6649b76') in 0.102361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_mads.png
+  artifactKey: Guid(a6968eaf0615095439e31c56441f2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_mads.png using Guid(a6968eaf0615095439e31c56441f2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536b8ea29647d83aca1d753db3c04f9b') in 0.011472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_B.fbx
+  artifactKey: Guid(96122d1ec72ef1440af0cf46c6a1220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_B.fbx using Guid(96122d1ec72ef1440af0cf46c6a1220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446151d0d9cab31d1b26bfc882dca08a') in 0.010010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_B.prefab
+  artifactKey: Guid(bf9be07af37802d45ab1d805925ec862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_B.prefab using Guid(bf9be07af37802d45ab1d805925ec862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edccba7d844e6cba48e4566dc464745f') in 0.107610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_A.fbx
+  artifactKey: Guid(b9c33fe4c3da29b4793c68df4a835a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Med_A.fbx using Guid(b9c33fe4c3da29b4793c68df4a835a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a53af378d86492021b02a18191af50b') in 0.014770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Terrain/TerrainSetting/layer_Flower_GrassFlower_Grass_Free.terrainlayer
+  artifactKey: Guid(a3bd71a05ccb1d1469b6b0d166096e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Terrain/TerrainSetting/layer_Flower_GrassFlower_Grass_Free.terrainlayer using Guid(a3bd71a05ccb1d1469b6b0d166096e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ec7e0dd06e0fd6003cdf83a8a1534a') in 0.154664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_D.prefab
+  artifactKey: Guid(883e84064e0818d46b851b53952056f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_D.prefab using Guid(883e84064e0818d46b851b53952056f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba897c1ca250b3010e00ca63ab92c47c') in 0.105408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField.mat
+  artifactKey: Guid(edbfd5b47cf583144b112faa83dfc3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField.mat using Guid(edbfd5b47cf583144b112faa83dfc3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd313afd75709be83edc100cb54c58dc8') in 0.023038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/NAT_Grass1_AS.tif
+  artifactKey: Guid(91d2eb104975da745b684b83e3cb8553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/NAT_Grass1_AS.tif using Guid(91d2eb104975da745b684b83e3cb8553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d19b8487a4b7b33fa92ade861e9cfa') in 0.058478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Grass_Texture.png
+  artifactKey: Guid(e47c990053cf6eb49b67c793b3f47f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Texture/Grass_Texture.png using Guid(e47c990053cf6eb49b67c793b3f47f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18cf2a341839e1ffdf4e04c967b4bb7') in 0.012667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_basecolor.png
+  artifactKey: Guid(9cbe54ec3378fe9408c8ce9027486cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_basecolor.png using Guid(9cbe54ec3378fe9408c8ce9027486cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3055066fe67353031969d2982bb5502b') in 0.011757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat
+  artifactKey: Guid(823100dfe22b8f34f9b2f0441c93ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat using Guid(823100dfe22b8f34f9b2f0441c93ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c17e547f5f1ab20cee5412a6b0ed0db') in 0.008305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7595f4b219c52c138fddac1c5f2184d6') in 0.011120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_normal.png
+  artifactKey: Guid(18cf4e986b21c2e4691b3d7f4a886ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/CommonTextures/KB3D_NNY_GrassField_normal.png using Guid(18cf4e986b21c2e4691b3d7f4a886ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24babaa58a603e70058af3898f90f99e') in 0.012207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_C.fbx
+  artifactKey: Guid(b88efc51f73550a428a72844ccd19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_C.fbx using Guid(b88efc51f73550a428a72844ccd19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783fbd796af048c78d2bf1570a2364e') in 0.011847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_C.fbx
+  artifactKey: Guid(ba45a76b7b45f27419de4b1326102dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_C.fbx using Guid(ba45a76b7b45f27419de4b1326102dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c518bbe5e4acedd2c0126cd77cd85c') in 0.013260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a296a5ca824d3de5048f6abfac4e525') in 0.006742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01c_PRE.prefab
+  artifactKey: Guid(a23d9e79c6094334cb0eb4548036483f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01c_PRE.prefab using Guid(a23d9e79c6094334cb0eb4548036483f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313a5c23e073dadf932a33a686955e04') in 0.011770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01e_PRE.prefab
+  artifactKey: Guid(99e86460e9bfcf644956d799c342fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Prefabs/Nature/Grass/EA03_Plant_Grass_01e_PRE.prefab using Guid(99e86460e9bfcf644956d799c342fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206a8ccf034eea8a46e4994cf54f986a') in 0.010276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_C.prefab
+  artifactKey: Guid(1d2935b10b358a344ad9cf0a415ea3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Small_C.prefab using Guid(1d2935b10b358a344ad9cf0a415ea3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ac3dd4ad9465f6baccdc586bb4187') in 0.106653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_D.fbx
+  artifactKey: Guid(0b1eadd50210bbf489ee17d6376699a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Small_D.fbx using Guid(0b1eadd50210bbf489ee17d6376699a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd82b8582c9c75047fd4992a0a8beabb') in 0.012156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_A.fbx
+  artifactKey: Guid(d359baef9fd0e7c4f909055d44127a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Fol_Grass_A.fbx using Guid(d359baef9fd0e7c4f909055d44127a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103d167ebd7b4728d57f73ea9a8fad0f') in 0.035080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Terrain/_TerrainAutoUpgrade_V2/layer_Flower_GrassFlower_Grass_NM312cdf1c675cb011.terrainlayer
+  artifactKey: Guid(e061a76f3ae4144478bd2e17201ec1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Terrain/_TerrainAutoUpgrade_V2/layer_Flower_GrassFlower_Grass_NM312cdf1c675cb011.terrainlayer using Guid(e061a76f3ae4144478bd2e17201ec1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef42eced2aa86f95626e66be08ad03b2') in 0.027602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02b.fbx
+  artifactKey: Guid(c679b46118ade7b478817aa8b269fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02b.fbx using Guid(c679b46118ade7b478817aa8b269fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091d17c13d2beac721b52296f0462f8f') in 0.019017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_B.fbx
+  artifactKey: Guid(5502328da92d24740a90a78763d613d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Meshes/mNature/mGrass/Grass_Tall_B.fbx using Guid(5502328da92d24740a90a78763d613d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0901d18c0a03c6db1b87bb7763eb009') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_A.prefab
+  artifactKey: Guid(5d46f571dcc2a664381f8adff96066b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Grass/Grass_Med_A.prefab using Guid(5d46f571dcc2a664381f8adff96066b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e909fe4dff736d2e5a8144ff50f78754') in 0.100189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.715580 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassRockyAlbedo.mat
+  artifactKey: Guid(94adfb342d9094c549c4d9ca0a4a9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassRockyAlbedo.mat using Guid(94adfb342d9094c549c4d9ca0a4a9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e042b3544a727c36778b9ad64ff8ef3a') in 0.020258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.054951 seconds.
+  path: Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField 2.mat
+  artifactKey: Guid(a9e6a628c65f1436ca06ee92348a3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/UniversitiCity/City/NewCity/neonyc/Materials/KB3D_NNY_GrassField 2.mat using Guid(a9e6a628c65f1436ca06ee92348a3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e9fd4c38d17c437a8ffda8ecb3d44e') in 0.027932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.455705 seconds.
+  path: Assets/_RawAssets/Material/KB3D_NNY_GrassField 2.mat
+  artifactKey: Guid(a9e6a628c65f1436ca06ee92348a3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Material/KB3D_NNY_GrassField 2.mat using Guid(a9e6a628c65f1436ca06ee92348a3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428d6d50bc6a6c084c5ab8fb8ab0849f') in 0.024953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.531589 seconds.
+  path: Assets/_RawAssets/Scenes/Scene_Home.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/Scenes/Scene_Home.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2877700cc23209aa87d318772bec6c69') in 0.000694 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 4.26 ms.
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:82 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:37 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:410 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 82)
+
+- Completed reload, in  1.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1573ms)
+		BeginReloadAssembly (335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (85ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on ServerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.5 MB.
+System memory in use after: 352.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4399.
+Total: 5.141987 ms (FindLiveObjects: 0.272631 ms CreateObjectMapping: 0.139473 ms MarkObjects: 4.561767 ms  DeleteObjects: 0.167525 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+2022-10-06 19:43:05.755 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2022-10-06 19:43:05.763 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+Found installed macOS SDK 12.1.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 1.09 ms.
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:82 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:37 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:410 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 82)
+
+2022-10-06 19:44:55.970 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2022-10-06 19:44:55.978 Unity[9369:510882] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+- Completed reload, in  1.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1465ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on ServerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.69 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.9 MB.
+System memory in use after: 356.7 MB.
+
+Unloading 831 unused Assets to reduce memory usage. Loaded Objects now: 4436.
+Total: 5.671111 ms (FindLiveObjects: 0.305631 ms CreateObjectMapping: 0.163616 ms MarkObjects: 4.873543 ms  DeleteObjects: 0.327778 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+========================================================================
+Received Import Request.
+  Time since last request: 502.260373 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_glazed_trim_N.tiff
+  artifactKey: Guid(0a46543ee577e634b9e8f9f2f81301f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_glazed_trim_N.tiff using Guid(0a46543ee577e634b9e8f9f2f81301f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631d233c618dbc22ec82b0e89cc5eb1b') in 0.879594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_RawAssets/StoreAssets/LadingZone/Models/Wooden Stool/WoodenStool_Diffuse.tga
+  artifactKey: Guid(5120f1fd09c9945d4837c6340b5d8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/LadingZone/Models/Wooden Stool/WoodenStool_Diffuse.tga using Guid(5120f1fd09c9945d4837c6340b5d8b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e03ee2d5a4e5bada4c8b1ef9a00e0b3') in 0.708868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_B_Textures/translucency_gloss.png
+  artifactKey: Guid(2b0837ffc0d52ed46ab019ae6c17aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_B_Textures/translucency_gloss.png using Guid(2b0837ffc0d52ed46ab019ae6c17aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9bd1af99703f3d51125b94debf3c8d') in 0.027055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTexture.png
+  artifactKey: Guid(df33d7843e7ff98489b55381f6cdd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTexture.png using Guid(df33d7843e7ff98489b55381f6cdd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168104646cfb54efe9ca00cf4c57b6ff') in 0.009095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_nml.png
+  artifactKey: Guid(158ed6dbb513a4b9eb8942f0f15401d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_nml.png using Guid(158ed6dbb513a4b9eb8942f0f15401d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7496d88586367bdba41f289ab1742f40') in 0.050841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_RawAssets/StoreAssets/Environment/PostProcessing/Utilities/CustomMotionTexture/Textures/WheelMotionVectors.png
+  artifactKey: Guid(d1cc06458fe724df8837423c0a2f8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Environment/PostProcessing/Utilities/CustomMotionTexture/Textures/WheelMotionVectors.png using Guid(d1cc06458fe724df8837423c0a2f8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764564d892df84ecf50c02e075779591') in 0.020694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_nml.png
+  artifactKey: Guid(50830092afbd8416b9620ec76a8bef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_nml.png using Guid(50830092afbd8416b9620ec76a8bef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49d438b01a41bc1ad446ab97a10e91c') in 0.050864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureBlue.png
+  artifactKey: Guid(bf44fd0b5bb0c4142b16ba9db02789fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureBlue.png using Guid(bf44fd0b5bb0c4142b16ba9db02789fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac9551d599e0d581253869c2a4bf13a') in 0.007247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd
+  artifactKey: Guid(b725b62cfc9d04e4886735ab2a8107d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd using Guid(b725b62cfc9d04e4886735ab2a8107d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c83ea1ae98744d968bbe0a91fc437') in 0.009325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
+  artifactKey: Guid(6a61dbb599169b64ca5584c8eebeb69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png using Guid(6a61dbb599169b64ca5584c8eebeb69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c56e690ad490040b6b8d46eead4beb') in 0.021359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_tiling_rotten_A.tif
+  artifactKey: Guid(d2c530402ca7c03428889bba5a3f9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_rotten_A.tif using Guid(d2c530402ca7c03428889bba5a3f9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1900b3a6b5eb9f4787d7e0fb91a61d') in 0.053125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+  artifactKey: Guid(047330f39d11745ad0004adb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd using Guid(047330f39d11745ad0004adb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e65d31a325a72d3700e7784fb934101') in 0.010662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/UIelement.png
+  artifactKey: Guid(1f040466d664f6d4698a177ddcf0608c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/UIelement.png using Guid(1f040466d664f6d4698a177ddcf0608c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a7363ff56f9792fbe809e0b2bfb6b0') in 0.015464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_RawAssets/StoreAssets/Environment/PostProcessing/Utilities/CustomMotionTexture/Textures/UVChecker.png
+  artifactKey: Guid(a08960dd6e8274e7f8fca616e09c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Environment/PostProcessing/Utilities/CustomMotionTexture/Textures/UVChecker.png using Guid(a08960dd6e8274e7f8fca616e09c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d09266cc4262230130343ba122b2d') in 0.009980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_tiling_A.tif
+  artifactKey: Guid(519d24984293b534db51aac8f23ef247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_A.tif using Guid(519d24984293b534db51aac8f23ef247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab16099ff001f64ae6116c99db00ddc') in 0.060330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
+  artifactKey: Guid(a53cf5449d11a15d1100a04b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg using Guid(a53cf5449d11a15d1100a04b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a60ff45448a9fe4f89b3fc2fd9fbd4') in 0.694876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Plugin/Wind_Noise2.tif
+  artifactKey: Guid(4515072f4cd4005429ced623f2abc6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Plugin/Wind_Noise2.tif using Guid(4515072f4cd4005429ced623f2abc6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c00870e1df411f8f1a6249dff81506') in 0.024717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureRed.png
+  artifactKey: Guid(9349ff1a2d6d7804486fef5d7c3a67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitTextureRed.png using Guid(9349ff1a2d6d7804486fef5d7c3a67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46deee69afec3d5b2f1557a2fc5f1766') in 0.008164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Textures/translucency_gloss.png
+  artifactKey: Guid(65adcbd0751c9f7428419ed439393683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Textures/translucency_gloss.png using Guid(65adcbd0751c9f7428419ed439393683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3c16053fb16635777ca82e1a4a2212') in 0.020099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_A_Textures/translucency_gloss.png
+  artifactKey: Guid(a3cbbebe654cdc443beb52878d3e2c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_A_Textures/translucency_gloss.png using Guid(a3cbbebe654cdc443beb52878d3e2c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e0cc7dd4c15d14361dc765d536cff') in 0.021905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_tiling_R.tif
+  artifactKey: Guid(4ad186cd12db7d444bd2faf999dbb8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_R.tif using Guid(4ad186cd12db7d444bd2faf999dbb8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbd330a84b5ba07134d51d203c4f12e') in 0.016624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd
+  artifactKey: Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd using Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e62ddefb04cbaea227af854464c1b4') in 0.004959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
+  artifactKey: Guid(8403d3349d112ba4d000be1be39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd using Guid(8403d3349d112ba4d000be1be39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad8ae8b34dcfc3da4846c5f8a25ea39') in 0.004721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Oculus/Voice/Resources/voicesdk_heroart.png
+  artifactKey: Guid(41df4ab8a05595e49b2f2d150e753bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Resources/voicesdk_heroart.png using Guid(41df4ab8a05595e49b2f2d150e753bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fadc546cbd2417917e971b427311a0c') in 0.031663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg
+  artifactKey: Guid(2dd3788f8589b40bf82a92d76ffc5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterBump.jpg using Guid(2dd3788f8589b40bf82a92d76ffc5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60001ae72f022da28b655bc0af91a5bd') in 0.009435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Textures/VRCompositorExplain.png
+  artifactKey: Guid(23233d83117b40244b7dc190b15bb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Textures/VRCompositorExplain.png using Guid(23233d83117b40244b7dc190b15bb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adf999c6af99e986b4812d5fa574d7e') in 0.020491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_B_Textures/translucency_gloss.png
+  artifactKey: Guid(f80f7c95c474aa946bf84f9fcc3db256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_B_Textures/translucency_gloss.png using Guid(f80f7c95c474aa946bf84f9fcc3db256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7284020041cd3eb453c30eb94fdf2d2') in 0.016977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/triangles.png
+  artifactKey: Guid(53aa997cbf3a15e48b78352b94e3f1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/triangles.png using Guid(53aa997cbf3a15e48b78352b94e3f1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd199af526ec4ccc2cb3ef40cef896b8a') in 0.006300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_msm.png
+  artifactKey: Guid(e1aca10d2084d4a16ac922b11ff30928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_msm.png using Guid(e1aca10d2084d4a16ac922b11ff30928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7eed649bcb51a5bd94dd181fb9b8a0') in 0.049493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Plugin/Wind_Noise.tif
+  artifactKey: Guid(8df763d702bf3e642a8f562e8ba6b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Plugin/Wind_Noise.tif using Guid(8df763d702bf3e642a8f562e8ba6b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4f8b0c7f8bccd42e207e625244a0e3') in 0.016845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_glazed_trim_R.tif
+  artifactKey: Guid(c7cb97926a0d8134ab0edf77a0337ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_glazed_trim_R.tif using Guid(c7cb97926a0d8134ab0edf77a0337ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d25ecacaf10fa4abdf1e98ec48ec9b') in 0.024023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Oculus/VR/Textures/windowgui.png
+  artifactKey: Guid(a26663690a6580440963aa46e582c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Textures/windowgui.png using Guid(a26663690a6580440963aa46e582c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e9c089fd7cb0dda829dfb6cef27c93') in 0.014189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/_RawAssets/StoreAssets/Environment/Models/WoodenStool/WoodenStool_Diffuse.tga
+  artifactKey: Guid(1dc0e24676423f845a3847d95639e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Environment/Models/WoodenStool/WoodenStool_Diffuse.tga using Guid(1dc0e24676423f845a3847d95639e1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25359800e71cf9b46c0bc0b58219a3') in 0.019038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_dif.png
+  artifactKey: Guid(f7015a3434c124bc8a51d1d13bac63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_dif.png using Guid(f7015a3434c124bc8a51d1d13bac63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c93621a0c437681c3dbb6b135032304') in 0.049327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_B_Textures/translucency_gloss.png
+  artifactKey: Guid(9d2505cbd1b356a4f96848f4670d870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_B_Textures/translucency_gloss.png using Guid(9d2505cbd1b356a4f96848f4670d870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60223e9b4c77cd4b386ca467f87dbd66') in 0.016934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_tiling_N.tiff
+  artifactKey: Guid(730e47e8f3c1b0e498ce4849420ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_N.tiff using Guid(730e47e8f3c1b0e498ce4849420ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a7575ca27618db5e4dca9c23b82c05') in 0.048767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png
+  artifactKey: Guid(7ebd72557d873024e8afa355e92d435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png using Guid(7ebd72557d873024e8afa355e92d435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424b8308ba65abbe43c113bf0ff073ef') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitCircleTexture.png
+  artifactKey: Guid(875557e634eec5c42a4681b331501c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sdks/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/UnitCircleTexture.png using Guid(875557e634eec5c42a4681b331501c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a00c73399842227f74cca05f7a29c') in 0.005886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_msm.png
+  artifactKey: Guid(586be470a004247e6926753b5eb88b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_msm.png using Guid(586be470a004247e6926753b5eb88b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8afa9c83aebea593a23f827da9cc18f') in 0.052828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Dead_Textures/translucency_gloss.png
+  artifactKey: Guid(424ab9cb242d0834f9415f007e2bebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Dead_Textures/translucency_gloss.png using Guid(424ab9cb242d0834f9415f007e2bebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc1fec45df7038f5ea94b79ccb82090') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_A_Textures/translucency_gloss.png
+  artifactKey: Guid(04f2c1f076e4bdc458bdb08eea9b7911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_A_Textures/translucency_gloss.png using Guid(04f2c1f076e4bdc458bdb08eea9b7911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b095d08f4115f14dd337ef7deddb7b') in 0.018633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png
+  artifactKey: Guid(b5d7fd3784c8d40d78ffb8d454a19944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png using Guid(b5d7fd3784c8d40d78ffb8d454a19944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0e23ecfff5cd21d0b8c88b08c2510f') in 0.054648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai.png
+  artifactKey: Guid(d3b5ac4c8b01ef14a8a66d7e2a4991cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai.png using Guid(d3b5ac4c8b01ef14a8a66d7e2a4991cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50563ceff6475fa134b85ae90a88a6a7') in 0.009258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_glazed_trim_A.tiff
+  artifactKey: Guid(ef59cad4871c09a48aa51daba634c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_glazed_trim_A.tiff using Guid(ef59cad4871c09a48aa51daba634c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb64e329ebd58e09c1c73ebcc067a5ae') in 0.060513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011156 seconds.
+  path: Assets/Sun_Temple/Content/Textures/wood_glazed_trim_rotten_A.tif
+  artifactKey: Guid(3c1512c4e14d8e14891b558f06acdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Textures/wood_glazed_trim_rotten_A.tif using Guid(3c1512c4e14d8e14891b558f06acdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291b4fdaa364dd24f5bebefd838dfd51') in 2.009122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Bush_A_Textures/translucency_gloss.png
+  artifactKey: Guid(0a44ed8ceb7b4db46ada6743f85699ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Bush_A_Textures/translucency_gloss.png using Guid(0a44ed8ceb7b4db46ada6743f85699ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65a7b832779849a520004bab6460139') in 0.035317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001558 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_A_Textures/translucency_gloss.png
+  artifactKey: Guid(ea81b1759b31c274a8716fd1f039f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_A_Textures/translucency_gloss.png using Guid(ea81b1759b31c274a8716fd1f039f04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abc8dc5def371f41e0b67f9a8affe64') in 0.021729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/XingLight.png
+  artifactKey: Guid(11b03a969a56a6541938a82c96221de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/XingLight.png using Guid(11b03a969a56a6541938a82c96221de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c051018faefc00a209a332da1a8e22') in 0.008384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Textures/WoodTiling.png
+  artifactKey: Guid(4d009118a9fcdce4f9e75630ee19f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Textures/WoodTiling.png using Guid(4d009118a9fcdce4f9e75630ee19f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb08dbe255c319dd659d0cee8ab50e03') in 0.011630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+  artifactKey: Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd using Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675d5c0e890af575176138c0da5a74e5') in 0.005331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/triangles.png
+  artifactKey: Guid(42cde8c8cd0446b49b0d883688e875d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/triangles.png using Guid(42cde8c8cd0446b49b0d883688e875d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1850ec0bc2145d889f5d064c4e4ef1b') in 0.007417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/WristFade.png
+  artifactKey: Guid(bb0379854428fda4aa7a671885a12bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/WristFade.png using Guid(bb0379854428fda4aa7a671885a12bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a946ee2d480ba6d1e9264323b3842ff9') in 0.017230 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.54 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.78 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 289.5 MB.
+System memory in use after: 289.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4448.
+Total: 7.202578 ms (FindLiveObjects: 0.299888 ms CreateObjectMapping: 0.144795 ms MarkObjects: 6.588033 ms  DeleteObjects: 0.168993 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

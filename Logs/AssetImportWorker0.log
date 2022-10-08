@@ -1,0 +1,437 @@
+Unity Editor version:    2020.3.34f1 (9a4c9c70452b)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.2 (Build 20G314)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/user/UnityProjects/GitProject/metaverse
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49938
+Successfully changed project path to: /Users/user/UnityProjects/GitProject/metaverse
+/Users/user/UnityProjects/GitProject/metaverse
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 139.29 ms, found 6 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 3.44 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/UnityProjects/GitProject/metaverse/Assets
+GfxDevice: creating device client; threaded=0
+2022-10-07 11:20:57.014 Unity[3032:77539] S24R35xFZ preferred device: NVIDIA GeForce GT 730 (high power)
+2022-10-07 11:20:57.014 Unity[3032:77539] Metal devices available: 1
+2022-10-07 11:20:57.015 Unity[3032:77539] 0: NVIDIA GeForce GT 730 (high power)
+2022-10-07 11:20:57.015 Unity[3032:77539] Using device NVIDIA GeForce GT 730 (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 730
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003129 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.74 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.75 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009857 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on ServerManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.68 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.064233 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.193435 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 292.1 MB.
+System memory in use after: 290.3 MB.
+
+Unloading 849 unused Assets to reduce memory usage. Loaded Objects now: 3824.
+Total: 3.521711 ms (FindLiveObjects: 0.310987 ms CreateObjectMapping: 0.164319 ms MarkObjects: 2.273408 ms  DeleteObjects: 0.772469 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_Leaf1_AS.tif
+  artifactKey: Guid(613c9ad9dfc6b484697801f5268522ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_Leaf1_AS.tif using Guid(613c9ad9dfc6b484697801f5268522ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d92cb163c05da9b95e5d82621bc3247') in 1.083024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_A.tif
+  artifactKey: Guid(966cf6398289d054592e01c08d5880f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_A.tif using Guid(966cf6398289d054592e01c08d5880f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5343195524aa67458fd28d149fdc7e8b') in 0.437540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/_RawAssets/StoreAssets/LadingZone/Models/Base Environment.blend
+  artifactKey: Guid(1614f0d157ae94328a9ec7b238568761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/LadingZone/Models/Base Environment.blend using Guid(1614f0d157ae94328a9ec7b238568761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03b64e4e686fd8801acece89f2c482d') in 0.972366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Church1_MS.tif
+  artifactKey: Guid(c3a0fe73b1e00a747b8c28bcf0af0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Church1_MS.tif using Guid(c3a0fe73b1e00a747b8c28bcf0af0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f552c28a1013eb62010bd7f8bb19065') in 0.078527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BGR_Sky1.tif
+  artifactKey: Guid(8888999060e5b7f4399b58f65d814847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BGR_Sky1.tif using Guid(8888999060e5b7f4399b58f65d814847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68b02dd3c91788d431379b45cee7f3d') in 0.094360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BGR_Sky1.mat
+  artifactKey: Guid(1612dc54605b67947bed7b6e6b4f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BGR_Sky1.mat using Guid(1612dc54605b67947bed7b6e6b4f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba4f551e1677a5a1be69bfd4fdec010') in 0.918207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_N.tif
+  artifactKey: Guid(6aca893bbdb380e40be322de5b27e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_N.tif using Guid(6aca893bbdb380e40be322de5b27e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e4c8df55ad7206847fecddbb51747d') in 0.207399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Sounds/3D_LeafRustle.prefab
+  artifactKey: Guid(506eda1dc7aad5742b90e680c7fb5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Sounds/3D_LeafRustle.prefab using Guid(506eda1dc7aad5742b90e680c7fb5ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e5a1afb258e327067b64d0c9284271') in 0.259455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_Leaves_B.prefab
+  artifactKey: Guid(ab1d7b194de648340a71ccc21062a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_Leaves_B.prefab using Guid(ab1d7b194de648340a71ccc21062a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664704bd170e19bbc3f06130d19947bf') in 0.040610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat
+  artifactKey: Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat using Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3861722bab5d9ad27feab9fd487b24') in 0.829596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_RawAssets/StoreAssets/Environment/Models/BaseEnvironment.blend
+  artifactKey: Guid(ae02a22f1b8d14810a92c3d05d1e9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Environment/Models/BaseEnvironment.blend using Guid(ae02a22f1b8d14810a92c3d05d1e9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86361dd1392da656b3146592adbee44') in 0.110802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_AO.tif
+  artifactKey: Guid(cacc835fbdacf6a4abc2a2231b0bb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_AO.tif using Guid(cacc835fbdacf6a4abc2a2231b0bb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a64b872d118b1b9de8a633c3aa1d14') in 0.018761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_AO.tif
+  artifactKey: Guid(ca00df4281acdd843a50d3e3456368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_AO.tif using Guid(ca00df4281acdd843a50d3e3456368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb74b766ed633354239d20e6283592a4') in 0.022374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Bridge1_MS.tif
+  artifactKey: Guid(936f4cd27ea43ec44b6539ca8a1dadad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Bridge1_MS.tif using Guid(936f4cd27ea43ec44b6539ca8a1dadad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9727f1983a478a3f8654a4ad538a17') in 0.067831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_ExhaustParticle1_AS.tif
+  artifactKey: Guid(ce844cdb57c71eb4d9ef480d8691ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_ExhaustParticle1_AS.tif using Guid(ce844cdb57c71eb4d9ef480d8691ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7a4a1795f5eba2ecf33500e08212a5') in 0.008739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_MS.tif
+  artifactKey: Guid(dfd14658241371f48956461682c52cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_MS.tif using Guid(dfd14658241371f48956461682c52cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4671c807a0e89d4737cfdaa80b1f430') in 0.064727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_DustPartice1_AS.tif
+  artifactKey: Guid(4ef6a6bc343d82749b9a5b849f8db1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/ATM_DustPartice1_AS.tif using Guid(4ef6a6bc343d82749b9a5b849f8db1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7470009178f00ebf405f0c380163ee67') in 0.008430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat
+  artifactKey: Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat using Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922ce0abe5b84bfa8df4f7db81eb720d') in 0.795790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_InteriorDust.prefab
+  artifactKey: Guid(198a7384312e9d7418c7d2b63e402e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_InteriorDust.prefab using Guid(198a7384312e9d7418c7d2b63e402e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae017d919756b633d3a18eea933e4501') in 0.034325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_A.tif
+  artifactKey: Guid(ff65229a7320f7248bd4885b5a3932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_A.tif using Guid(ff65229a7320f7248bd4885b5a3932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6a0341a450bf1e00fe2d5623e9259') in 0.213321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/ATM_DustParticle.mat
+  artifactKey: Guid(43af489cd38ff014e8e9a7a8cea78a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/ATM_DustParticle.mat using Guid(43af489cd38ff014e8e9a7a8cea78a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a21fbedaaac1f22a22079c14e9364a') in 0.017194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010134 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_Leaves_A.prefab
+  artifactKey: Guid(0d4dd2e060f00094f90a86962c2a13a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Atmospherics/ATM_Leaves_A.prefab using Guid(0d4dd2e060f00094f90a86962c2a13a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed7396aa9507d5d5f57055fb16d6692') in 0.022855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_BrickHouse1.mat
+  artifactKey: Guid(47922826feb9d49488af116a75bc66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_BrickHouse1.mat using Guid(47922826feb9d49488af116a75bc66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33726024f67e7a49e6d2954313bbe90') in 0.455032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_AO.tif
+  artifactKey: Guid(c77c5dd6079ae7749baa9f1611b6e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_AO.tif using Guid(c77c5dd6079ae7749baa9f1611b6e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b41e4f040da92579d614a4791b534b2') in 0.019934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_A.tif
+  artifactKey: Guid(862297ff71c7f3e479996c3c8f21b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Cabins1_A.tif using Guid(862297ff71c7f3e479996c3c8f21b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87186159e4900c0ed31b77f74295642') in 0.179517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Cabins.mat
+  artifactKey: Guid(2d96e79d3d44b824381f64be7765f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Materials/BLD_Cabins.mat using Guid(2d96e79d3d44b824381f64be7765f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18485f2557fe4354688a38a6120a4e0') in 0.466147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_MS.tif
+  artifactKey: Guid(955950c9b775425459c371bd2f8d93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_MS.tif using Guid(955950c9b775425459c371bd2f8d93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b5af39bdf715842fa49ec18d1451b') in 0.064233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_MS.tif
+  artifactKey: Guid(d5cc8eaa1e44ec14d86470c81aa2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_Doors1_MS.tif using Guid(d5cc8eaa1e44ec14d86470c81aa2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6233ed05e62d06d68e20b0cba3f347f') in 0.065007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_N.tif
+  artifactKey: Guid(acdfafac7cad4494fbe639d2347b38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_N.tif using Guid(acdfafac7cad4494fbe639d2347b38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e6dd0eea87b1cf0cee4d206320b6b') in 0.189301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/NewShaderVariants.shadervariants
+  artifactKey: Guid(7ae1f42fb6f47894c8590683c3d03927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/NewShaderVariants.shadervariants using Guid(7ae1f42fb6f47894c8590683c3d03927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3648ad2bd9417716f055eeb2db4eaf') in 0.154414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Sounds/3D_Taps.prefab
+  artifactKey: Guid(5c7ab60be45c27348a11ef4a24df7c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Flooded_Grounds/Prefabs/Sounds/3D_Taps.prefab using Guid(5c7ab60be45c27348a11ef4a24df7c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb0acf7c67d55162fb16b593631811f') in 0.008022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_RawAssets/StoreAssets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_RawAssets/StoreAssets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbe9aa5256138dd6c91ba786485ce25') in 0.551175 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.49 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 2.51 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.3 MB.
+System memory in use after: 262.7 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 3.792491 ms (FindLiveObjects: 0.284004 ms CreateObjectMapping: 0.192149 ms MarkObjects: 2.982406 ms  DeleteObjects: 0.333459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.79 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 1.46 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.1 MB.
+System memory in use after: 262.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 21.145119 ms (FindLiveObjects: 0.631432 ms CreateObjectMapping: 0.204467 ms MarkObjects: 19.880429 ms  DeleteObjects: 0.427855 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.46 ms, found 6 plugins.
+Plugins: Couldn't open /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 2): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: /Users/user/UnityProjects/GitProject/metaverse/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: image not found
+Preloading 1 native plugins for Editor in 1.74 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.1 MB.
+System memory in use after: 262.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 17.866338 ms (FindLiveObjects: 0.554291 ms CreateObjectMapping: 0.170014 ms MarkObjects: 16.770319 ms  DeleteObjects: 0.370995 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
